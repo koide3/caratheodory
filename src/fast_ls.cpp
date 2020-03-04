@@ -202,7 +202,7 @@ int main(int argc, char** argv) {
   std::cout << "P:" << P.rows() << " " << P.cols() << std::endl;
   std::cout << "S:" << S.rows() << " " << S.cols() << std::endl;
 
-  std::cout << "--- naive ---" << std::endl << PP << std::endl;
+  std::cout << "--- matmul ---" << std::endl << PP << std::endl;
   std::cout << "--- caratheodory ---" << std::endl << SS << std::endl;
 
   std::cout << "--- time ---" << std::endl;
